@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/static/css/main.4f607626.chunk.css",
-    "main.js": "/static/js/main.c6c69559.chunk.js",
-    "main.js.map": "/static/js/main.c6c69559.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.61712ef3.js",
-    "runtime-main.js.map": "/static/js/runtime-main.61712ef3.js.map",
-    "static/css/2.5709b9ac.chunk.css": "/static/css/2.5709b9ac.chunk.css",
-    "static/js/2.12b7fdba.chunk.js": "/static/js/2.12b7fdba.chunk.js",
-    "static/js/2.12b7fdba.chunk.js.map": "/static/js/2.12b7fdba.chunk.js.map",
-    "static/js/3.2fb43fec.chunk.js": "/static/js/3.2fb43fec.chunk.js",
-    "static/js/3.2fb43fec.chunk.js.map": "/static/js/3.2fb43fec.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/2.5709b9ac.chunk.css.map": "/static/css/2.5709b9ac.chunk.css.map",
-    "static/css/main.4f607626.chunk.css.map": "/static/css/main.4f607626.chunk.css.map",
-    "static/js/2.12b7fdba.chunk.js.LICENSE.txt": "/static/js/2.12b7fdba.chunk.js.LICENSE.txt",
-    "static/media/Weather_logos_transparent.58177856.png": "/static/media/Weather_logos_transparent.58177856.png",
-    "static/media/Weather_logos_white.359761b8.png": "/static/media/Weather_logos_white.359761b8.png",
-    "static/media/loader.df1e3eaf.gif": "/static/media/loader.df1e3eaf.gif",
-    "static/media/weatherNotFound.da5edaff.png": "/static/media/weatherNotFound.da5edaff.png"
+    "main.css": "/Ofir-Danan-03-08-2021/static/css/main.4f607626.chunk.css",
+    "main.js": "/Ofir-Danan-03-08-2021/static/js/main.c285f26a.chunk.js",
+    "main.js.map": "/Ofir-Danan-03-08-2021/static/js/main.c285f26a.chunk.js.map",
+    "runtime-main.js": "/Ofir-Danan-03-08-2021/static/js/runtime-main.e6a215dd.js",
+    "runtime-main.js.map": "/Ofir-Danan-03-08-2021/static/js/runtime-main.e6a215dd.js.map",
+    "static/css/2.5709b9ac.chunk.css": "/Ofir-Danan-03-08-2021/static/css/2.5709b9ac.chunk.css",
+    "static/js/2.c716811b.chunk.js": "/Ofir-Danan-03-08-2021/static/js/2.c716811b.chunk.js",
+    "static/js/2.c716811b.chunk.js.map": "/Ofir-Danan-03-08-2021/static/js/2.c716811b.chunk.js.map",
+    "static/js/3.ef7a5339.chunk.js": "/Ofir-Danan-03-08-2021/static/js/3.ef7a5339.chunk.js",
+    "static/js/3.ef7a5339.chunk.js.map": "/Ofir-Danan-03-08-2021/static/js/3.ef7a5339.chunk.js.map",
+    "index.html": "/Ofir-Danan-03-08-2021/index.html",
+    "static/css/2.5709b9ac.chunk.css.map": "/Ofir-Danan-03-08-2021/static/css/2.5709b9ac.chunk.css.map",
+    "static/css/main.4f607626.chunk.css.map": "/Ofir-Danan-03-08-2021/static/css/main.4f607626.chunk.css.map",
+    "static/js/2.c716811b.chunk.js.LICENSE.txt": "/Ofir-Danan-03-08-2021/static/js/2.c716811b.chunk.js.LICENSE.txt",
+    "static/media/Weather_logos_transparent.58177856.png": "/Ofir-Danan-03-08-2021/static/media/Weather_logos_transparent.58177856.png",
+    "static/media/Weather_logos_white.359761b8.png": "/Ofir-Danan-03-08-2021/static/media/Weather_logos_white.359761b8.png",
+    "static/media/loader.df1e3eaf.gif": "/Ofir-Danan-03-08-2021/static/media/loader.df1e3eaf.gif",
+    "static/media/weatherNotFound.da5edaff.png": "/Ofir-Danan-03-08-2021/static/media/weatherNotFound.da5edaff.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.61712ef3.js",
+    "static/js/runtime-main.e6a215dd.js",
     "static/css/2.5709b9ac.chunk.css",
-    "static/js/2.12b7fdba.chunk.js",
+    "static/js/2.c716811b.chunk.js",
     "static/css/main.4f607626.chunk.css",
-    "static/js/main.c6c69559.chunk.js"
+    "static/js/main.c285f26a.chunk.js"
   ]
 }
