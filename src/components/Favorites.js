@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import FavoriteCard from "./FavoriteCard";
-import dotenv from "dotenv";
 import axios from "axios";
 import Clock from "react-clock";
 import "react-clock/dist/Clock.css";
@@ -14,7 +13,7 @@ function Favorites() {
   const [favoriteCities, setFavoriteCities] = useState([]);
   const [favoriteCitiesWeather, setFavoriteCitiesWeather] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
-  const [isFatching, setIsFatching] = useState(false);
+  const [isFetching, setIsFetching] = useState(false);
 
   // clock interval
   useEffect(() => {
@@ -38,8 +37,8 @@ function Favorites() {
       const info = data[0];
       return { ...item, ...info };
     }
-    if (favoriteCitiesWeather.length < favoriteCities.length && !isFatching) {
-      setIsFatching(true);
+    if (favoriteCitiesWeather.length < favoriteCities.length && !isFetching) {
+      setIsFetching(true);
       // for each favorite get current weather
       favoriteCities.forEach(async (item, index, key) => {
         const res = await fetchCurrentWeather(item);
@@ -51,16 +50,16 @@ function Favorites() {
       favoriteCitiesWeather.length === favoriteCities.length &&
       favoriteCitiesWeather.length > 0
     ) {
-      setIsFatching(false);
+      setIsFetching(false);
       setIsLoading(false);
     }
     if (favoriteCities.length === 0) {
       setIsLoading(false);
     }
-  }, [favoriteCitiesWeather, favoriteCities]);
+  }, [favoriteCitiesWeather, favoriteCities, isFetching]);
 
   if (isLoading) {
-    return <img className="loading" src={loader} />;
+    return <img className="loading" alt="loader" src={loader} />;
   }
   return (
     <div className="body">

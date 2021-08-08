@@ -17,9 +17,7 @@ function FavoriteCard({ currentWeather, city, locationId }) {
     if (include) {
       setFavorite(true);
     }
-  }, []);
-
-  useEffect(() => {}, [favorite]);
+  }, [favorites, locationId]);
 
   // change favorite status
   const handleChange = () => {

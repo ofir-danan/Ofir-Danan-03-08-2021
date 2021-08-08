@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import store from "../store";
-import dotenv from "dotenv";
 import axios from "axios";
 import { Heading } from "@chakra-ui/react";
 import WeatherCard from "./WeatherCard";
@@ -41,7 +40,7 @@ function Home() {
   }, [unit, locationId]);
 
   while (isLoading) {
-    return <img className="loading" src={loader} />;
+    return <img className="loading" alt="loader" src={loader} />;
   }
 
   return (

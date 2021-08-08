@@ -1,9 +1,10 @@
 import "./App.css";
-import { Switch, Route, withRouter } from "react-router-dom";
+import { Switch, Route, withRouter, Redirect } from "react-router-dom";
 import { connect } from "react-redux";
 import Home from "./components/Home";
 import Favorites from "./components/Favorites";
 import NavBar from "./components/NavBar";
+import PageNotFound from "./components/PageNotFound";
 import { useEffect, useState } from "react";
 import store from "./store";
 import { getCurrentPosition } from "./actions";
@@ -37,6 +38,8 @@ function App() {
       <Switch>
         <Route exact path="/" component={Home} />
         <Route path="/favorites" component={Favorites} />
+        <Route path="/404" component={PageNotFound} />
+        <Redirect to="/404" />
       </Switch>
     </div>
   );

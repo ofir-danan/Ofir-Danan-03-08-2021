@@ -8,7 +8,6 @@ import {
   KEY,
   REMOVE_FAVORITE,
 } from "./types";
-import dotenv from "dotenv";
 const apikey = process.env.REACT_APP_API_KEY;
 
 // get location key by location coordinates

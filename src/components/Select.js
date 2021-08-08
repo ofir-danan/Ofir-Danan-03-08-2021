@@ -3,7 +3,6 @@ import Autocomplete from "@material-ui/lab/Autocomplete";
 import axios from "axios";
 import { useEffect, useState } from "react";
 import store from "../store";
-import dotenv from "dotenv";
 import { setCityName, setKey } from "../actions";
 
 const apikey = process.env.REACT_APP_API_KEY;
