@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/Ofir-Danan-03-08-2021/static/css/main.4f607626.chunk.css",
-    "main.js": "/Ofir-Danan-03-08-2021/static/js/main.c285f26a.chunk.js",
-    "main.js.map": "/Ofir-Danan-03-08-2021/static/js/main.c285f26a.chunk.js.map",
+    "main.js": "/Ofir-Danan-03-08-2021/static/js/main.11f52efa.chunk.js",
+    "main.js.map": "/Ofir-Danan-03-08-2021/static/js/main.11f52efa.chunk.js.map",
     "runtime-main.js": "/Ofir-Danan-03-08-2021/static/js/runtime-main.e6a215dd.js",
     "runtime-main.js.map": "/Ofir-Danan-03-08-2021/static/js/runtime-main.e6a215dd.js.map",
     "static/css/2.5709b9ac.chunk.css": "/Ofir-Danan-03-08-2021/static/css/2.5709b9ac.chunk.css",
-    "static/js/2.c716811b.chunk.js": "/Ofir-Danan-03-08-2021/static/js/2.c716811b.chunk.js",
-    "static/js/2.c716811b.chunk.js.map": "/Ofir-Danan-03-08-2021/static/js/2.c716811b.chunk.js.map",
+    "static/js/2.9429184e.chunk.js": "/Ofir-Danan-03-08-2021/static/js/2.9429184e.chunk.js",
+    "static/js/2.9429184e.chunk.js.map": "/Ofir-Danan-03-08-2021/static/js/2.9429184e.chunk.js.map",
     "static/js/3.ef7a5339.chunk.js": "/Ofir-Danan-03-08-2021/static/js/3.ef7a5339.chunk.js",
     "static/js/3.ef7a5339.chunk.js.map": "/Ofir-Danan-03-08-2021/static/js/3.ef7a5339.chunk.js.map",
     "index.html": "/Ofir-Danan-03-08-2021/index.html",
     "static/css/2.5709b9ac.chunk.css.map": "/Ofir-Danan-03-08-2021/static/css/2.5709b9ac.chunk.css.map",
     "static/css/main.4f607626.chunk.css.map": "/Ofir-Danan-03-08-2021/static/css/main.4f607626.chunk.css.map",
-    "static/js/2.c716811b.chunk.js.LICENSE.txt": "/Ofir-Danan-03-08-2021/static/js/2.c716811b.chunk.js.LICENSE.txt",
+    "static/js/2.9429184e.chunk.js.LICENSE.txt": "/Ofir-Danan-03-08-2021/static/js/2.9429184e.chunk.js.LICENSE.txt",
     "static/media/Weather_logos_transparent.58177856.png": "/Ofir-Danan-03-08-2021/static/media/Weather_logos_transparent.58177856.png",
     "static/media/Weather_logos_white.359761b8.png": "/Ofir-Danan-03-08-2021/static/media/Weather_logos_white.359761b8.png",
     "static/media/loader.df1e3eaf.gif": "/Ofir-Danan-03-08-2021/static/media/loader.df1e3eaf.gif",
@@ -22,8 +22,8 @@
   "entrypoints": [
     "static/js/runtime-main.e6a215dd.js",
     "static/css/2.5709b9ac.chunk.css",
-    "static/js/2.c716811b.chunk.js",
+    "static/js/2.9429184e.chunk.js",
     "static/css/main.4f607626.chunk.css",
-    "static/js/main.c285f26a.chunk.js"
+    "static/js/main.11f52efa.chunk.js"
   ]
 }
