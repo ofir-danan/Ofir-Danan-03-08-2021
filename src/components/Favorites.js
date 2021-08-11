@@ -32,7 +32,7 @@ function Favorites() {
     const currentArray = [];
     async function fetchCurrentWeather(item) {
       const { data } = await axios(
-        `http://dataservice.accuweather.com/currentconditions/v1/${item.locationId}?apikey=${apikey}`
+        `https://dataservice.accuweather.com/currentconditions/v1/${item.locationId}?apikey=${apikey}`
       );
       const info = data[0];
       return { ...item, ...info };

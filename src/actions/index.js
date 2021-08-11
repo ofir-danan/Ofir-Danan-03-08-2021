@@ -14,7 +14,7 @@ const apikey = process.env.REACT_APP_API_KEY;
 export const getCurrentPosition = (coordinates) => {
   return async function fetchCurrentWeather(dispatch) {
     const res = await axios(
-      `http://dataservice.accuweather.com/locations/v1/cities/geoposition/search?apikey=${apikey}&q=${coordinates}`
+      `https://dataservice.accuweather.com/locations/v1/cities/geoposition/search?apikey=${apikey}&q=${coordinates}`
     );
     dispatch({
       type: LOCATION_ID,

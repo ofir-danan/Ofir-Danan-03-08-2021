@@ -23,13 +23,13 @@ function Home() {
     async function fetchWeather() {
       // five days weather
       const fiveDaysData = await axios(
-        `http://dataservice.accuweather.com/forecasts/v1/daily/5day/${locationId}?apikey=${apikey}&metric=${
+        `https://dataservice.accuweather.com/forecasts/v1/daily/5day/${locationId}?apikey=${apikey}&metric=${
           unit === "Metric"
         }`
       );
       // current location weather
       const { data } = await axios(
-        `http://dataservice.accuweather.com/currentconditions/v1/${locationId}?apikey=${apikey}`
+        `https://dataservice.accuweather.com/currentconditions/v1/${locationId}?apikey=${apikey}`
       );
       setFiveDaysWeather(fiveDaysData.data);
       setCurrentWeather(data);

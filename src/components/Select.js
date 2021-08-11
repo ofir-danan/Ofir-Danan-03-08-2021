@@ -21,7 +21,7 @@ const Select = () => {
     // API call for accuweather auto complete locations and setting the relevant data
     const fetchCityData = () => {
       axios(
-        `http://dataservice.accuweather.com/locations/v1/cities/autocomplete?apikey=${apikey}&q=${textInput}`
+        `https://dataservice.accuweather.com/locations/v1/cities/autocomplete?apikey=${apikey}&q=${textInput}`
       ).then((res) => {
         const { data } = res;
         const list = data.map((city) => {
